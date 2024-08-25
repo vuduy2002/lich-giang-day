@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_URL = '/lecturers';
-
+const API = process.env.REACT_APP_API
+const API_URL = `${API}/lecturers`;
 export const login = async (userId, password) => {
     if (password.length < 6) {
         throw new Error('Password too short');

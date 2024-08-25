@@ -1,16 +1,15 @@
 {
-  "projects": [
-    {
-      "src": "lich-giang-day-frontend/",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "build" }
-    },
+  "builds": [
     {
       "src": "lich-giang-day-backend/src/app.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "lich-giang-day-frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
     }
-  ],
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/lich-giang-day-backend/src/app.js" }
   ]
 }

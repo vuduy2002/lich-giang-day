@@ -1,0 +1,85 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #f7f7f7;
+    padding: 6rem 2rem 0;
+    .btt {
+        color: white !important;
+        text-transform: uppercase;
+        cursor: pointer;
+        height: 4rem;
+    }
+    
+}
+
+.logo_school img {
+    max-width: 30rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    text-align: center; 
+    max-width: 60rem; 
+}
+
+.title {
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+//profile
+.profile-card {
+    display: flex;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.profile-image {
+    flex: 1;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.profile-info {
+    flex: 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.box-butt{
+    display: flex;
+    justify-content: space-around;
+}
+

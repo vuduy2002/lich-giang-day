@@ -1,0 +1,59 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+    font-family: Arial, sans-serif;
+    margin-top: 8px;
+}
+.back-btt {
+    padding: 0.8rem 1.4rem;
+    width: 4rem;
+    height: 4rem;
+    color: #777;
+    &:hover {
+        color: black;
+    }
+}
+.profile {
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.name {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.designation {
+    color: #777;
+    font-style: italic;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}

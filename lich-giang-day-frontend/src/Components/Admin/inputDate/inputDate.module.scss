@@ -1,0 +1,20 @@
+.showDate {
+    position: relative;
+}
+
+.dateInputContainer {
+  position: relative;
+}
+
+.calendarContainer {
+  width: 35rem ;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 4px;
+}
+  

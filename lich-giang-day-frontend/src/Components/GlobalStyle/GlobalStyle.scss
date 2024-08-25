@@ -1,0 +1,37 @@
+// reset css
+@import 'normalize.css';
+
+:root {
+    --primary-color: #c53337f0;
+    --primary-background-hover: rgb(232, 13, 60);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    font-family: 'roboto', sans-serif;
+    
+}
+
+html {
+    font-size: 62.5%;
+   
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+a[href] {
+    text-decoration: none;
+    color: black;
+}

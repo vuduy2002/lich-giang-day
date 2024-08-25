@@ -1,0 +1,21 @@
+//account
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.name-user {
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+.popper {
+    min-width: 100px;
+    max-width: 10rem;
+}

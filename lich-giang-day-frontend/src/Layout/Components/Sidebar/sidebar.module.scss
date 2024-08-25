@@ -1,0 +1,14 @@
+.wrapper {
+    padding: 1rem 0 0 1rem;
+}
+.btt {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 1rem;
+    line-height: 1.8rem;
+    & + .btt {margin-left: 0px;}
+    box-shadow: 4px 4px 4px rgb(191, 190, 190);
+}
+

@@ -1,0 +1,82 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    box-shadow: inset;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.input,
+.textarea,
+.select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.legend {
+    padding: 0 10px;
+    color: #555;
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.duplicateTime {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+// show hide lectuer menu
+
+.boxSearch {
+    display: flex;
+    flex-wrap: wrap;
+}
+.textareaSearch {
+    margin-right: 1rem;
+    min-width: 30rem;
+    flex: 1;
+    max-height: 20rem;
+}

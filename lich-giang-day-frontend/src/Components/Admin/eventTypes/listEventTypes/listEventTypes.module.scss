@@ -1,0 +1,65 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    
+    .inputSearch {
+        width: 200px;
+        padding: 8px;
+        margin-left: 2rem;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .boxTable {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+
+            th,
+            td {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #f2f2f2;
+                font-weight: bold;
+            }
+
+            .actions {
+                text-align: center;
+
+                .icon {
+                    cursor: pointer;
+                    margin-left: 10px;
+                    font-size: 18px;
+
+                    &.edit-icon {
+                        color: dodgerblue;
+                    }
+
+                    &.delete-icon {
+                        color: crimson;
+                    }
+                }
+            }
+        }
+    }
+}

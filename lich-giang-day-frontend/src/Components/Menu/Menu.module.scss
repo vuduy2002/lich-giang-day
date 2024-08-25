@@ -1,0 +1,37 @@
+// Menu - menu items
+.menu-list {
+    width: 220px;
+    & .menu-wrap {
+        margin-bottom: 8px;
+        & .menu-item {
+            margin-left: 0;
+            width: 100%;
+            justify-content: start;
+            border-radius: 0;
+        }
+    }
+}
+
+// Menu Items
+.menu-item {
+    line-height: 1.8rem;
+    &:hover {
+        background-color: #f8f8f8;
+    }
+}
+body .sparate {
+    border-top: 1px solid #c2c1c1;
+}
+
+//Header - menu
+.header {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.btt_back {
+    padding: 12px 20px;
+}
+.title_menu {
+    font-weight: 700;
+}

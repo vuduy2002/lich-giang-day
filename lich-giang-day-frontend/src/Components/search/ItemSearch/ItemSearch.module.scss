@@ -1,0 +1,32 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    &:hover {
+        background-color: #f6f5f5;
+    }
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+.content {
+    margin-left: 1rem;
+    flex: 1;
+}
+
+.name {
+    font-weight: 500;
+}
+.ticked {
+    color: aqua;
+    margin-left: 0.8rem;
+}
+
+.nick-name {
+    color: #908e8e;
+}

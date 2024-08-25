@@ -1,0 +1,107 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    .form {
+        margin-top: 20px;
+
+        .label {
+            display: block;
+            margin-bottom: 15px;
+
+            .title {
+                display: block;
+                margin-bottom: 0.5rem;
+                font-weight: bold;
+            }
+
+            .input {
+                width: 100%;
+                padding: 10px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                transition: border-color 0.3s ease;
+
+                &:focus {
+                    outline: none;
+                    border-color: #3498db;
+                }
+            }
+
+            .error {
+                color: #e74c3c;
+                margin-top: 5px;
+                font-size: 14px;
+            }
+        }
+
+        .wrapCheckbox {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+
+            .checkbox {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                width: 20px;
+                height: 20px;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                outline: none;
+                transition: background-color 0.3s ease;
+
+                &:checked {
+                    background-color: #3498db;
+                    border-color: #3498db;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+
+                &::before {
+                    content: '\2714'; /* Checkmark symbol */
+                    display: block;
+                    color: white;
+                    font-size: 16px;
+                    text-align: center;
+                    line-height: 20px;
+                    opacity: 0; /* Hidden by default */
+                    transition: opacity 0.3s ease;
+                }
+
+                &:checked::before {
+                    opacity: 1; /* Show checkmark when checked */
+                }
+            }
+
+            span {
+                margin-left: 10px;
+            }
+        }
+
+        button {
+            margin-top: 2rem;
+            width: 100%;
+        }
+    }
+
+    h2 {
+        font-size: 24px;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .error {
+        color: #e74c3c;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
